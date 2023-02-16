@@ -12,6 +12,8 @@ info:
 
     -
     [Netaxept-Payment-Flow](https://nets-mobile-acceptance.github.io/Netaxept-iOS-SDK/11-basic-payment-flow.html)
+
+    -
     [FAQ](https://nets-mobile-acceptance.github.io/Netaxept-iOS-SDK/53-faqs.html#2-why-do-i-need-to-provide-a-redirecturl-in-register-call-and-in-the-sdk-what-are-they-used-for)
   version: 1.0.0
 tags:
@@ -64,7 +66,8 @@ components:
           example: '123456'
         redirectUrl:
           type: string
-          description: If you don’t provide the SDK the same redirectUrl that has been used in the registerCall, the payment authorization will be successful, but the result delivered to your application will be error - GENERIC_ERROR
+          description: >-
+            If you don’t provide the SDK the same redirectUrl that has been used in the registerCall, the payment authorization will be successful, but the result delivered to your application will be error - GENERIC_ERROR
           example: seijfa://
     PaymentDetailsDTO:
       type: object

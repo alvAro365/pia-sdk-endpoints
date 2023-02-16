@@ -62,9 +62,10 @@ components:
         transactionId:
           type: string
           example: '123456'
-        redirectOK:
-          type: boolean
-          example: true
+        redirectUrl:
+          type: string
+          description: If you don’t provide the SDK the same redirectUrl that has been used in the registerCall, the payment authorization will be successful, but the result delivered to your application will be error - GENERIC_ERROR
+          example: seijfa://
     PaymentDetailsDTO:
       type: object
       properties:

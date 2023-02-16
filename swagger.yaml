@@ -12,6 +12,7 @@ info:
 
     -
     [Netaxept-Payment-Flow](https://nets-mobile-acceptance.github.io/Netaxept-iOS-SDK/11-basic-payment-flow.html)
+    [FAQ](https://nets-mobile-acceptance.github.io/Netaxept-iOS-SDK/53-faqs.html#2-why-do-i-need-to-provide-a-redirecturl-in-register-call-and-in-the-sdk-what-are-they-used-for)
   version: 1.0.0
 tags:
   - name: payment
@@ -41,7 +42,7 @@ paths:
         - name: quoteId
           in: query
           description: Quote id
-          required: true          
+          required: true
           schema:
             type: string
       responses:
